@@ -1,2 +1,11 @@
-# law-explorer-releases
-Public downloads for Taiwan Law Research. The Mac app zip only. Source stays elsewhere.
+# 台灣法律研究
+
+Apple silicon Mac builds only. Source is not in this repository.
+
+Download the latest zip from [Releases](https://github.com/keemy/law-explorer-releases/releases).
+
+macOS may say the app is damaged. After unzipping, run:
+
+```
+xattr -cr "Taiwan Law Research.app"
+```
